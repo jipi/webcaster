@@ -1215,7 +1215,7 @@
       slider: 0
     });
     Webcaster.settings = new Webcaster.Model.Settings({
-      uri: "ws://source:hackme@localhost:8080/mount",
+      uri: "wss://source:hackme@nong.be:8080/mount",
       bitrate: 128,
       bitrates: [8, 16, 24, 32, 40, 48, 56, 64, 80, 96, 112, 128, 144, 160, 192, 224, 256, 320],
       samplerate: 44100,
